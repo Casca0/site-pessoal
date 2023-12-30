@@ -12,8 +12,7 @@ export default {
 			backgroundColor: {
 				'main-blue': '#5E60CE',
 				'purple': '#7400B8',
-				'header': '#7400B8',
-				'footer': '#6930C3',
+				'light-blue': '#6930C3',
 			},
 			backgroundSize: {
 				'400': '400%',
