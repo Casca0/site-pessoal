@@ -3,8 +3,8 @@ import profilePic from '../assets/profilePic.webp';
 export default function AboutMe() {
   return (
     <div className="bg-violet h-screen snap-start">
-      <div className="flex h-full flex-col items-center justify-evenly p-12 md:flex-row md:p-24">
-        <div>
+      <div className="flex h-full flex-col items-center p-6 md:flex-row md:justify-evenly md:p-24">
+        <div className="my-4 md:my-0">
           <h1 className="text-4xl">Sobre mim</h1>
           <img
             src={profilePic}
@@ -12,7 +12,7 @@ export default function AboutMe() {
             className="my-4 w-80 rounded-3xl object-cover shadow-lg shadow-teal-800"
           />
         </div>
-        <section className="mx-4 w-full md:w-auto">
+        <section className="mx-12 my-6 w-80 md:m-0 md:w-auto">
           <h1 className="text-2xl">
             Lucas Henrique Borzani,
             <br />
