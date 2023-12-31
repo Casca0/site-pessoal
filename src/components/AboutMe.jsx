@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="bg-violet h-screen snap-start">
       <div className="flex h-full flex-col items-center p-6 md:flex-row md:justify-evenly md:p-24">
-        <div className="my-8 md:my-0">
+        <div className="my-7 md:my-0">
           <h1 className="text-4xl">Sobre mim</h1>
           <img
             src={profilePic}
