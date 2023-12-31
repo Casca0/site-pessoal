@@ -9,7 +9,7 @@ export default function AboutMe() {
           <img
             src={profilePic}
             alt="Minha foto"
-            className="my-4 w-80 rounded-3xl object-cover shadow-lg shadow-teal-800"
+            className="my-4 w-72 rounded-3xl object-cover shadow-lg shadow-teal-800 md:w-80"
           />
         </div>
         <section className="mx-12 my-6 w-80 md:m-0 md:w-auto">
