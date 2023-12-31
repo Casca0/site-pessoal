@@ -7,9 +7,10 @@ export default function WelcomeContent() {
         <section className="w-full cursor-default text-center antialiased">
           <h1 className="text-4xl">Seja bem-vindo ao meu site pessoal!</h1>
           <p className="m-4 text-xl md:m-0 md:text-base">
-            Conheça um pouco sobre minhas experiências e meus projetos.
+            Conheça um pouco sobre mim, minha carreira e meus projetos.
           </p>
         </section>
+        <h1 className="text-xl">Role a página para baixo</h1>
         <img src={ArrowDown} alt="Para baixo" className="w-14" />
       </div>
     </div>

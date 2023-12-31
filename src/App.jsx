@@ -1,6 +1,5 @@
-import Footer from './components/Footer.jsx';
-import Header from './components/Header.jsx';
 import WelcomeContent from './components/WelcomeContent.jsx';
+import MyExperience from './components/MyExperience.jsx';
 import AboutMe from './components/AboutMe.jsx';
 
 export default function App() {
@@ -11,6 +10,7 @@ export default function App() {
     >
       <WelcomeContent />
       <AboutMe />
+      <MyExperience />
     </main>
   );
 }

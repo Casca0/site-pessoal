@@ -12,7 +12,7 @@ export default {
 			backgroundColor: {
 				'main-blue': '#5E60CE',
 				'purple': '#7400B8',
-				'light-blue': '#6930C3',
+				'violet': '#6930C3',
 			},
 			backgroundSize: {
 				'400': '400%',
