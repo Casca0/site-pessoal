@@ -43,7 +43,7 @@ export default function MyExperience() {
             id="scrollable"
             className="flex h-80 flex-col overflow-y-scroll p-4"
           >
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5">
               <section>
                 <h3 className="text-xl font-bold">Enext</h3>
                 <p className="text-base underline underline-offset-4">
@@ -57,7 +57,7 @@ export default function MyExperience() {
                 <p>(03/2021 - 11/2021)</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5">
               <section>
                 <h3 className="text-xl font-bold">Enext</h3>
                 <p className="text-base underline underline-offset-4">
@@ -71,7 +71,7 @@ export default function MyExperience() {
                 <p>(11/2021 - 05/2022)</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5">
               <section>
                 <h3 className="text-xl font-bold">Maeztra</h3>
                 <p className="text-base underline underline-offset-4">
@@ -87,55 +87,55 @@ export default function MyExperience() {
             </li>
           </ul>
         </div>
-        <div className="bg-violet m-3 h-96 w-max rounded-md">
+        <div className="m-3 h-96 w-max rounded-md bg-violet">
           <h1 className="py-3 text-center text-2xl font-bold">Conhecimentos</h1>
           <ul
             id="scrollable"
             className="flex h-80 flex-col overflow-y-scroll p-4"
           >
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">JavaScript</h3>
                 <p className="text-sm">Avançado</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">TypeScript</h3>
                 <p className="text-sm">Intermediário</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">Python</h3>
                 <p className="text-sm">Básico</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">Node</h3>
                 <p className="text-sm">Intermediário</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">Next</h3>
                 <p className="text-sm">Intermediário</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">React</h3>
                 <p className="text-sm">Intermediário</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">Métodos ágeis</h3>
                 <p className="text-sm">SCRUM e Kanban</p>
               </section>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <section className="text-center">
                 <h3 className="text-lg font-bold">Inglês</h3>
                 <p className="text-sm">Intermediário</p>
@@ -154,7 +154,7 @@ export default function MyExperience() {
             {projects.flat().map((item, index) => {
               return (
                 <li
-                  className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3"
+                  className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto"
                   key={index}
                 >
                   <section className="text-center">
@@ -181,7 +181,7 @@ export default function MyExperience() {
             id="scrollable"
             className="flex h-80 flex-col overflow-y-scroll p-4"
           >
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <div className="flex flex-col items-center text-center">
                 <h3 className="text-lg font-bold">LinkedIn</h3>
                 <a
@@ -193,7 +193,7 @@ export default function MyExperience() {
                 </a>
               </div>
             </li>
-            <li className="m-3 w-72 rounded-lg border-4 border-solid border-slate-300 p-3">
+            <li className="m-3 w-80 rounded-lg border-4 border-solid border-slate-300 p-5 md:w-auto">
               <div className="flex flex-col items-center text-center">
                 <h3 className="text-lg font-bold">GitHub</h3>
                 <a
